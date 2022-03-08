@@ -23,3 +23,9 @@ Max/MSP, Arduino
 1. for Arduino: Use lower boud rate (e.g. 115200 instead of 9600) and give a larger buffer time (using `delay()` ) to ensure successful upload
 2. for Max: use `loadmess` for quicker start up, `print` and `'i' (int number read/write)` for debugging, `meter` for a more visual debugging.
 3. Because it is the computer that is supposed to be running the Max patches and loop the sound, plugging the ESP32 into the computer with USB directly (instead of powering it up with a battery) is recommended.
+
+**Where I could have taken this and what you may want to do if you are replicating the work:**
+
+1. Interaction / control design: Provide a file list, and allow people to press the button to switch between pre-set files (songs, auditory scenes, or else) and real-time audio input
+2. Sound effect: Add reverb effect to the loop , adding another dimension for control
+3. Data: Use JSON for a more stable and customizable communication
