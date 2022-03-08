@@ -2,7 +2,7 @@ More info about ideation at [my blog](https://hannahz.vercel.app/creative-embedd
 
 
 # Feedbox
-a foam-enclosed, feedback-based box. 
+A foam-enclosed box for controling sound feedback art. 
 
 ## Description
 
