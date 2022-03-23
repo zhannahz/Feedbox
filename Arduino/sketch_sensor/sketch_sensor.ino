@@ -2,7 +2,7 @@
 
 const int joyStickHor = 27;
 const int joyStickVer = 26;
-const int potenPin = 12;
+const int potenPin = 15;
 const int buttonPin = 13;
 
 int X = 0;
